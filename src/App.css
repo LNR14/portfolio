@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+#bg img{
+  width:100%;
+  height:100%;
+  z-index: -20%;
+}
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;400;600&family=Roboto:wght@100&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;400;600&family=Lobster&family=Roboto:wght@100&display=swap');
+.centered {
+  position: absolute;
+  /* font-family: 'Big Shoulders Stencil Text', monospace; */
+  /* font-family: 'Big Shoulders Stencil Text', cursive; */
+  font-family: 'Lobster', cursive;
+  font-size:40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered span{
+  color:#e31b6d
+}
+
+.particles{ 
+  height:100vh;
+  background-color: #252934;
+}

@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
+    <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
