@@ -1,8 +1,14 @@
+.projects{
+    padding: 50px 20px;
+    background-color:#eeeeee ;
+}
+
 .spacing{
     padding :2vw 5vw ;
     padding-bottom: 0;
     margin: 2vw 2vw;
 }
+
 
 #bg{
     height:100vh;
@@ -24,7 +30,8 @@ Form h1{
 }
 
 .projectPic{
-    width:100%;
+    width: 100%;
+    padding:20px;
     height:30vh;
 }
 
@@ -121,6 +128,6 @@ Form h1{
     width: 100%;
 }
 
-.hover-over button{
-    margin:10px;
+.hover-over a{
+    margin:8px;
 }
